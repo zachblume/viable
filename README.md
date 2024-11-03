@@ -1,6 +1,6 @@
 viable
 
-a little exploration of a simpler stack for building web apps
+stack for building serverful web apps using only javascript and sql
 
 - frontend (vite spa mode + pages)
 - api (vinxi)
@@ -8,14 +8,22 @@ a little exploration of a simpler stack for building web apps
 - durable workflows (inngest)
 - auth (auth.js)
 - tests (vitest)
-- reactive frontend db subscriptions (soul)
+- reactive db subscriptions for fe (soul)
 
-For development:
+for development:
 ```
 npm run dev
 ```
 
-To deploy to production:
+to deploy to production:
 ```
-npm run deploy
+git push
+```
+
+to install into a production server target
+```
+ssh yourserver
+git clone thisrepo .
+npm install
+npm run production-install
 ```
