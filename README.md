@@ -1,6 +1,6 @@
 viable
 
-stack for building serverful web apps using only javascript and sql
+a simpler stack for building serverful web apps
 
 - frontend (vite spa mode + pages)
 - api (vinxi)
